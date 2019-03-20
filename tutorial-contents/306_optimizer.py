@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 
 LR = 0.01
 BATCH_SIZE = 32
-EPOCH = 12
+EPOCH = 11
 
 # fake dataset
 x = torch.unsqueeze(torch.linspace(-1, 1, 1000), dim=1)
